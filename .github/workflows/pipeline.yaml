@@ -1,0 +1,27 @@
+name: Ci github
+
+on:
+  push:
+    branchs: [ main ]
+
+
+jobs:
+  build:
+    runs_on: ubuntu_latest
+
+
+    steps:
+      - name: checkout branchs
+        uses: actions/checkout@v5
+
+      - name: setup nodes
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm install
+
+
+      - name: Run tests
+        run: npm test 

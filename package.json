@@ -1,0 +1,21 @@
+{
+  "name": "devops-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "run": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zod01/devops-CI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zod01/devops-CI/issues"
+  },
+  "homepage": "https://github.com/zod01/devops-CI#readme"
+}
